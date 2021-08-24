@@ -11,16 +11,13 @@
 }
 
 .cabecalho {
-    background: pink;
     grid-area: cabecalho;
 }
  
 .conteudo {
-    background: indianred;
     grid-area: conteudo;
 }
 
 .rodape {
-    background: khaki;
     grid-area: rodape;
 }
