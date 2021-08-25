@@ -1,7 +1,60 @@
 .destaques { 
-    background: pink;
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 33.33% 33.33% 33.33%;
     height: calc(100vh - 50px);
+}
+
+.destaques__principal {
+/*elemento do bloco anterior __*/
+/*mesma coisa que o que está abaixo, mas simplificado*/
+    background: url('../img/pokemon.jpeg') center / cover no-repeat;
+    grid-column: 1/4 ;
+    grid-row: 1/3;
+
+}
+   /* background-image: url('../img/pokemon.jpeg') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3; */
+
+.destaques__secundario:nth-child(2) {
+    /*numero de "filhos" que ranked matches está*/
+    /*mesma coisa que o que está abaixo, mas simplificado*/
+    
+    background: url('../img/ninetales.png') center / cover no-repeat;
+    grid-column: 4/4;
+    grid-row: 1/1;
+
+    /*background-image: url('../img/ninetales.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;*/
+
+}
+
+.destaques__secundario:nth-child(3) {
+    background: url('../img/ranked.jpg') center / cover no-repeat;
+    grid-column: 4/4 ;
+    grid-row: 2/2;
+}
+
+.destaques__secundario:nth-child(4) {
+    background: url('../img/charizard.png') center / cover no-repeat;
+    grid-column: 4/4;
+    grid-row: 3/3;
+}
+
+.destaques__secundario:nth-child(5) {
+    background: url('../img/wigglytuff.png') center / cover no-repeat;
+    grid-column: 3/3;
+    grid-row: 3/3;
 }
