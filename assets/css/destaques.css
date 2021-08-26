@@ -26,7 +26,7 @@
 /*elemento do bloco anterior __*/
 /*mesma coisa que o que está abaixo, mas simplificado*/
     background: url('../img/pokemon.jpeg') center / cover no-repeat;
-    grid-column: 1/4 ;
+    grid-column: 1/4;
     grid-row: 1/3;
 
 }
